@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
+    }
+  ],
+  "id": "did:web:id-example.identinet.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:id-example.identinet.io#z6MkqJi2PKq8k7sLPyN51vyaPz9Z5hFtgw8cE4L1ECqGLPL1",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:id-example.identinet.io",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "oT-0JbGFkf07E16-SSYnADm6qWKSMg5cu0IOOtuHx44"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:id-example.identinet.io#z6MkqJi2PKq8k7sLPyN51vyaPz9Z5hFtgw8cE4L1ECqGLPL1"
+  ],
+  "assertionMethod": [
+    "did:web:id-example.identinet.io#z6MkqJi2PKq8k7sLPyN51vyaPz9Z5hFtgw8cE4L1ECqGLPL1"
+  ]
+}
