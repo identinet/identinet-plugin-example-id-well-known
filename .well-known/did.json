@@ -34,7 +34,7 @@
   ],
   "service": [
     {
-      "id": "did:web:id-broken-plus-well-known.localhost%3A8443#domain",
+      "id": "did:web:id-well-known-example.identinet.io#domain",
       "type": "LinkedDomains",
       "serviceEndpoint": "https://id-well-known-example.identinet.io"
     }
